@@ -1,0 +1,47 @@
+{
+  "name": "KBZApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "build-apk": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res"
+  },
+  "dependencies": {
+    "@twotalltotems/react-native-otp-input": "^1.0.21",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-communications": "^2.2.1",
+    "react-native-event-listeners": "^1.0.3",
+    "react-native-fast-image": "^6.0.1",
+    "react-native-firebase": "^5.4.2",
+    "react-native-gesture-handler": "^1.2.2",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-indicators": "^0.13.0",
+    "react-native-material-ripple": "^0.8.0",
+    "react-native-odoo-promise-based": "^0.6.4",
+    "react-native-share": "^1.2.1",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-swiper": "^1.5.14",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^2.9.1",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.10.0",
+    "rn-fetch-blob": "^0.10.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
