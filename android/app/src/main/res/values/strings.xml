@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">KBZ App</string>
-
-    <color name="colorPrimary">#7C7BAD</color>
-    <color name="colorPrimaryDark">#5a5a7e</color>
-    <color name="colorAccent">#7C7BAD</color>
-
-</resources>
